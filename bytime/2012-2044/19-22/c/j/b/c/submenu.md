@@ -8014,8 +8014,7 @@
 |Q1229128011|2020-02-20T20:20:34Z|[label](https://github.com/link)|
 |Q1229128012|2020-02-20T20:20:35Z|[label](https://github.com/link)|
 |Q1229128013|2020-02-20T20:20:36Z|[label](https://github.com/link)|
-|Q1229128014|2020-02-20T20:20:37Z|[bka' bstan skor/ (about kanjur and tenjur)](gitlab.com/bdrc-data/topics-20220921/-/blob/7395dd6308c506e0f9394c93a65fc4383ab49018/ee/T1129.trig
-)|
+|Q1229128014|2020-02-20T20:20:37Z|[bka' bstan skor/ (about kanjur and tenjur)](gitlab.com/bdrc-data/topics-20220921/-/blob/7395dd6308c506e0f9394c93a65fc4383ab49018/ee/T1129.trig)|
 |Q1229128015|2020-02-20T20:20:38Z|[label](https://github.com/link)|
 |Q1229128016|2020-02-20T20:20:39Z|[label](https://github.com/link)|
 |Q1229128017|2020-02-20T20:20:40Z|[label](https://github.com/link)|
