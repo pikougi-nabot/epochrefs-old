@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+xmlns:dc="http://purl.org/dc/terms/"
+xmlns:foaf="http://xmlns.com/foaf/0.1/"
+xmlns:vann="http://purl.org/vocab/vann/"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:owl="http://www.w3.org/2002/07/owl#"
+xmlns:ov="http://open.vocab.org/terms/"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+>
+<head about="popular/all">
+<title property="dc:title">popular | prefix.cc</title>
+<base href="http://prefix.cc/" />
+<link rel="stylesheet" href="style.css" type="text/css" />
+<script src="prototype.js" type="text/javascript"></script>
+<script src="script.js" type="text/javascript"></script>
+</head>
+<body about="popular/all">
+  <div class="title">
+    <h1>popular</h1>
+  </div>
+  <ol class="content popular">
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://xmlns.com/foaf/0.1/">
+      <span property="ov:rank" content="1" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://xmlns.com/foaf/0.1/" property="vann:preferredNamespacePrefix" href="foaf">foaf</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/dc/elements/1.1/">
+      <span property="ov:rank" content="2" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/dc/elements/1.1/" property="vann:preferredNamespacePrefix" href="dc">dc</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2002/07/owl#">
+      <span property="ov:rank" content="3" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2002/07/owl#" property="vann:preferredNamespacePrefix" href="owl">owl</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <span property="ov:rank" content="4" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#" property="vann:preferredNamespacePrefix" href="rdf">rdf</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2000/01/rdf-schema#">
+      <span property="ov:rank" content="5" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2000/01/rdf-schema#" property="vann:preferredNamespacePrefix" href="rdfs">rdfs</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="robots" class="missing">
+      <span property="ov:rank" content="6" datatype="xsd:int" />
+      <a href="robots">robots</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#">
+      <span property="ov:rank" content="7" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#" property="vann:preferredNamespacePrefix" href="d2rq">d2rq</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="xxx" class="missing">
+      <span property="ov:rank" content="8" datatype="xsd:int" />
+      <a href="xxx">xxx</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="test2" class="missing">
+      <span property="ov:rank" content="9" datatype="xsd:int" />
+      <a href="test2">test2</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="test3" class="missing">
+      <span property="ov:rank" content="10" datatype="xsd:int" />
+      <a href="test3">test3</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2004/02/skos/core#">
+      <span property="ov:rank" content="11" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2004/02/skos/core#" property="vann:preferredNamespacePrefix" href="skos">skos</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.semanticdesktop.org/ontologies/2007/11/01/pimo#">
+      <span property="ov:rank" content="12" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.semanticdesktop.org/ontologies/2007/11/01/pimo#" property="vann:preferredNamespacePrefix" href="pimo">pimo</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2003/12/exif/ns#">
+      <span property="ov:rank" content="13" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2003/12/exif/ns#" property="vann:preferredNamespacePrefix" href="exif">exif</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2001/XMLSchema#">
+      <span property="ov:rank" content="14" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2001/XMLSchema#" property="vann:preferredNamespacePrefix" href="xs">xs</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://data.semanticweb.org/ns/swc/ontology#">
+      <span property="ov:rank" content="15" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://data.semanticweb.org/ns/swc/ontology#" property="vann:preferredNamespacePrefix" href="swc">swc</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.daml.org/2001/03/daml+oil#">
+      <span property="ov:rank" content="16" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.daml.org/2001/03/daml+oil#" property="vann:preferredNamespacePrefix" href="daml">daml</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/stuff/rev#">
+      <span property="ov:rank" content="17" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/stuff/rev#" property="vann:preferredNamespacePrefix" href="rev">rev</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/dc/terms/">
+      <span property="ov:rank" content="18" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/dc/terms/" property="vann:preferredNamespacePrefix" href="dcterms">dcterms</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://rdfs.org/sioc/types#">
+      <span property="ov:rank" content="19" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://rdfs.org/sioc/types#" property="vann:preferredNamespacePrefix" href="sioct">sioct</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://rdfs.org/sioc/ns#">
+      <span property="ov:rank" content="20" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://rdfs.org/sioc/ns#" property="vann:preferredNamespacePrefix" href="sioc">sioc</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://rdfs.org/ns/void#">
+      <span property="ov:rank" content="21" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://rdfs.org/ns/void#" property="vann:preferredNamespacePrefix" href="void">void</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2001/XMLSchema#">
+      <span property="ov:rank" content="22" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2001/XMLSchema#" property="vann:preferredNamespacePrefix" href="xsd">xsd</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/vocab/psychometric-profile/">
+      <span property="ov:rank" content="23" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/vocab/psychometric-profile/" property="vann:preferredNamespacePrefix" href="psych">psych</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/vocab/bio/0.1/">
+      <span property="ov:rank" content="24" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/vocab/bio/0.1/" property="vann:preferredNamespacePrefix" href="bio">bio</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/1999/xhtml/vocab#">
+      <span property="ov:rank" content="25" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/1999/xhtml/vocab#" property="vann:preferredNamespacePrefix" href="xhv">xhv</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/1999/xhtml/vocab#">
+      <span property="ov:rank" content="26" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/1999/xhtml/vocab#" property="vann:preferredNamespacePrefix" href="xhtml">xhtml</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://usefulinc.com/ns/doap#">
+      <span property="ov:rank" content="27" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://usefulinc.com/ns/doap#" property="vann:preferredNamespacePrefix" href="doap">doap</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://dbpedia.org/resource/">
+      <span property="ov:rank" content="28" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://dbpedia.org/resource/" property="vann:preferredNamespacePrefix" href="dbpedia">dbpedia</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2000/10/swap/log#">
+      <span property="ov:rank" content="29" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2000/10/swap/log#" property="vann:preferredNamespacePrefix" href="log">log</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/dc/terms/">
+      <span property="ov:rank" content="30" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/dc/terms/" property="vann:preferredNamespacePrefix" href="dct">dct</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://example.org/">
+      <span property="ov:rank" content="31" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://example.org/" property="vann:preferredNamespacePrefix" href="ex">ex</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/vocab/frbr/extended#">
+      <span property="ov:rank" content="32" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/vocab/frbr/extended#" property="vann:preferredNamespacePrefix" href="frbre">frbre</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/vocab/relationship/">
+      <span property="ov:rank" content="33" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/vocab/relationship/" property="vann:preferredNamespacePrefix" href="rel">rel</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/vocab/riro/gpt#">
+      <span property="ov:rank" content="34" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/vocab/riro/gpt#" property="vann:preferredNamespacePrefix" href="gpt">gpt</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.semanticdesktop.org/ontologies/nie/">
+      <span property="ov:rank" content="35" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.semanticdesktop.org/ontologies/nie/" property="vann:preferredNamespacePrefix" href="nie">nie</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2000/10/swap/math#">
+      <span property="ov:rank" content="36" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2000/10/swap/math#" property="vann:preferredNamespacePrefix" href="math">math</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://creativecommons.org/ns#">
+      <span property="ov:rank" content="37" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://creativecommons.org/ns#" property="vann:preferredNamespacePrefix" href="cc">cc</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2000/10/swap/pim/contact#">
+      <span property="ov:rank" content="38" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2000/10/swap/pim/contact#" property="vann:preferredNamespacePrefix" href="contact">contact</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.junkwork.net/xml/DocumentList#">
+      <span property="ov:rank" content="39" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.junkwork.net/xml/DocumentList#" property="vann:preferredNamespacePrefix" href="doclist">doclist</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2002/12/cal/icaltzd#">
+      <span property="ov:rank" content="40" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2002/12/cal/icaltzd#" property="vann:preferredNamespacePrefix" href="ical">ical</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://schemas.talis.com/2005/library/schema#">
+      <span property="ov:rank" content="41" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://schemas.talis.com/2005/library/schema#" property="vann:preferredNamespacePrefix" href="lib">lib</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.rkbexplorer.com/ontologies/coref#">
+      <span property="ov:rank" content="42" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.rkbexplorer.com/ontologies/coref#" property="vann:preferredNamespacePrefix" href="coref">coref</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/net/vocab/2004/03/label#">
+      <span property="ov:rank" content="43" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/net/vocab/2004/03/label#" property="vann:preferredNamespacePrefix" href="label">label</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://schemas.talis.com/2005/dir/schema#">
+      <span property="ov:rank" content="44" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://schemas.talis.com/2005/dir/schema#" property="vann:preferredNamespacePrefix" href="dir">dir</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/">
+      <span property="ov:rank" content="45" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/" property="vann:preferredNamespacePrefix" href="drugbank">drugbank</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://resex.rkbexplorer.com/ontologies/resex#">
+      <span property="ov:rank" content="46" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://resex.rkbexplorer.com/ontologies/resex#" property="vann:preferredNamespacePrefix" href="resex">resex</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/NET/biol/ns#">
+      <span property="ov:rank" content="47" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/NET/biol/ns#" property="vann:preferredNamespacePrefix" href="biol">biol</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/vocab/vann/">
+      <span property="ov:rank" content="48" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/vocab/vann/" property="vann:preferredNamespacePrefix" href="vann">vann</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/ontology/mo/">
+      <span property="ov:rank" content="49" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/ontology/mo/" property="vann:preferredNamespacePrefix" href="mo">mo</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://schemas.talis.com/2005/address/schema#">
+      <span property="ov:rank" content="50" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://schemas.talis.com/2005/address/schema#" property="vann:preferredNamespacePrefix" href="ad">ad</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/NET/scovo#">
+      <span property="ov:rank" content="51" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/NET/scovo#" property="vann:preferredNamespacePrefix" href="scv">scv</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.rdfabout.com/rdf/schema/usgovt/">
+      <span property="ov:rank" content="52" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.rdfabout.com/rdf/schema/usgovt/" property="vann:preferredNamespacePrefix" href="usgov">usgov</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/NET/scovo#">
+      <span property="ov:rank" content="53" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/NET/scovo#" property="vann:preferredNamespacePrefix" href="scovo">scovo</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2006/vcard/ns#">
+      <span property="ov:rank" content="54" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2006/vcard/ns#" property="vann:preferredNamespacePrefix" href="vcard">vcard</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://courseware.rkbexplorer.com/ontologies/courseware#">
+      <span property="ov:rank" content="55" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://courseware.rkbexplorer.com/ontologies/courseware#" property="vann:preferredNamespacePrefix" href="courseware">courseware</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/vocab/riro/sdl#">
+      <span property="ov:rank" content="56" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/vocab/riro/sdl#" property="vann:preferredNamespacePrefix" href="sdl">sdl</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/rss/1.0/">
+      <span property="ov:rank" content="57" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/rss/1.0/" property="vann:preferredNamespacePrefix" href="rss">rss</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://swrc.ontoware.org/ontology#">
+      <span property="ov:rank" content="58" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://swrc.ontoware.org/ontology#" property="vann:preferredNamespacePrefix" href="swrc">swrc</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://hello.com/">
+      <span property="ov:rank" content="59" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://hello.com/" property="vann:preferredNamespacePrefix" href="dummy">dummy</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/media/audio#">
+      <span property="ov:rank" content="60" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/media/audio#" property="vann:preferredNamespacePrefix" href="audio">audio</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/dc/dcmitype/">
+      <span property="ov:rank" content="61" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/dc/dcmitype/" property="vann:preferredNamespacePrefix" href="dctype">dctype</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/">
+      <span property="ov:rank" content="62" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/" property="vann:preferredNamespacePrefix" href="dailymed">dailymed</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://schemas.talis.com/2005/service/schema#">
+      <span property="ov:rank" content="63" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://schemas.talis.com/2005/service/schema#" property="vann:preferredNamespacePrefix" href="sv">sv</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://d2rq.org/terms/jdbc/">
+      <span property="ov:rank" content="64" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://d2rq.org/terms/jdbc/" property="vann:preferredNamespacePrefix" href="jdbc">jdbc</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://open.vocab.org/terms/">
+      <span property="ov:rank" content="65" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://open.vocab.org/terms/" property="vann:preferredNamespacePrefix" href="ov">ov</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/NET/c4dm/event.owl#">
+      <span property="ov:rank" content="66" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/NET/c4dm/event.owl#" property="vann:preferredNamespacePrefix" href="event">event</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://umbel.org/umbel/sc/">
+      <span property="ov:rank" content="67" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://umbel.org/umbel/sc/" property="vann:preferredNamespacePrefix" href="umbel">umbel</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/rss/1.0/modules/content/">
+      <span property="ov:rank" content="68" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/rss/1.0/modules/content/" property="vann:preferredNamespacePrefix" href="content">content</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/vocab/frbr/core#">
+      <span property="ov:rank" content="69" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/vocab/frbr/core#" property="vann:preferredNamespacePrefix" href="frbr">frbr</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.aktors.org/ontology/portal#">
+      <span property="ov:rank" content="70" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.aktors.org/ontology/portal#" property="vann:preferredNamespacePrefix" href="akt">akt</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/vocab/riro/ddl#">
+      <span property="ov:rank" content="71" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/vocab/riro/ddl#" property="vann:preferredNamespacePrefix" href="ddl">ddl</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://schemas.microsoft.com/imm/">
+      <span property="ov:rank" content="72" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://schemas.microsoft.com/imm/" property="vann:preferredNamespacePrefix" href="imm">imm</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2003/01/geo/wgs84_pos#">
+      <span property="ov:rank" content="73" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2003/01/geo/wgs84_pos#" property="vann:preferredNamespacePrefix" href="geo">geo</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://kwijibo.talis.com/">
+      <span property="ov:rank" content="74" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://kwijibo.talis.com/" property="vann:preferredNamespacePrefix" href="kwijibo">kwijibo</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.aktors.org/ontology/support#">
+      <span property="ov:rank" content="75" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.aktors.org/ontology/support#" property="vann:preferredNamespacePrefix" href="akts">akts</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.rkbexplorer.com/ontologies/resist#">
+      <span property="ov:rank" content="76" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.rkbexplorer.com/ontologies/resist#" property="vann:preferredNamespacePrefix" href="resist">resist</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://okkam.org/terms#">
+      <span property="ov:rank" content="77" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://okkam.org/terms#" property="vann:preferredNamespacePrefix" href="ok">ok</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://ontologies.ezweb.morfeo-project.org/ezcontext/ns#">
+      <span property="ov:rank" content="78" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://ontologies.ezweb.morfeo-project.org/ezcontext/ns#" property="vann:preferredNamespacePrefix" href="ezcontext">ezcontext</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/ontology/bibo/">
+      <span property="ov:rank" content="79" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/ontology/bibo/" property="vann:preferredNamespacePrefix" href="bibo">bibo</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://buzzword.org.uk/rdf/xen#">
+      <span property="ov:rank" content="80" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://buzzword.org.uk/rdf/xen#" property="vann:preferredNamespacePrefix" href="xen">xen</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.rkbexplorer.com/ontologies/acm#">
+      <span property="ov:rank" content="81" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.rkbexplorer.com/ontologies/acm#" property="vann:preferredNamespacePrefix" href="acm">acm</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://buzzword.org.uk/rdf/atomix#">
+      <span property="ov:rank" content="82" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://buzzword.org.uk/rdf/atomix#" property="vann:preferredNamespacePrefix" href="atomix">atomix</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://ontologies.ezweb.morfeo-project.org/eztag/ns#">
+      <span property="ov:rank" content="83" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://ontologies.ezweb.morfeo-project.org/eztag/ns#" property="vann:preferredNamespacePrefix" href="eztag">eztag</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2005/Atom/">
+      <span property="ov:rank" content="84" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2005/Atom/" property="vann:preferredNamespacePrefix" href="atom">atom</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/vocab/aiiso/schema#">
+      <span property="ov:rank" content="85" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/vocab/aiiso/schema#" property="vann:preferredNamespacePrefix" href="aiiso">aiiso</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://schemas.talis.com/2005/user/schema#">
+      <span property="ov:rank" content="86" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://schemas.talis.com/2005/user/schema#" property="vann:preferredNamespacePrefix" href="user">user</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://musicontology.com/">
+      <span property="ov:rank" content="87" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://musicontology.com/" property="vann:preferredNamespacePrefix" href="music">music</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://buzzword.org.uk/rdf/h5#">
+      <span property="ov:rank" content="88" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://buzzword.org.uk/rdf/h5#" property="vann:preferredNamespacePrefix" href="h5">h5</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.openrdf.org/schema/sesame#">
+      <span property="ov:rank" content="89" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.openrdf.org/schema/sesame#" property="vann:preferredNamespacePrefix" href="sesame">sesame</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://buzzword.org.uk/rdf/personal-link-types#">
+      <span property="ov:rank" content="90" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://buzzword.org.uk/rdf/personal-link-types#" property="vann:preferredNamespacePrefix" href="plink">plink</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://ontologies.smile.deri.ie/2009/02/27/memo#">
+      <span property="ov:rank" content="91" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://ontologies.smile.deri.ie/2009/02/27/memo#" property="vann:preferredNamespacePrefix" href="memo">memo</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://ns.poundhill.com/phss/1.0/">
+      <span property="ov:rank" content="92" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://ns.poundhill.com/phss/1.0/" property="vann:preferredNamespacePrefix" href="phss">phss</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://ltsc.ieee.org/rdf/lomv1p0/lom#">
+      <span property="ov:rank" content="93" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://ltsc.ieee.org/rdf/lomv1p0/lom#" property="vann:preferredNamespacePrefix" href="lom">lom</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/ontology/myspace#">
+      <span property="ov:rank" content="94" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/ontology/myspace#" property="vann:preferredNamespacePrefix" href="myspo">myspo</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/media#">
+      <span property="ov:rank" content="95" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/media#" property="vann:preferredNamespacePrefix" href="media">media</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://ltsc.ieee.org/rdf/lomv1p0/vocabulary#">
+      <span property="ov:rank" content="96" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://ltsc.ieee.org/rdf/lomv1p0/vocabulary#" property="vann:preferredNamespacePrefix" href="lomvoc">lomvoc</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2006/http#">
+      <span property="ov:rank" content="97" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2006/http#" property="vann:preferredNamespacePrefix" href="http">http</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/NET/biol/zoology#">
+      <span property="ov:rank" content="98" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/NET/biol/zoology#" property="vann:preferredNamespacePrefix" href="zoology">zoology</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/media/video#">
+      <span property="ov:rank" content="99" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/media/video#" property="vann:preferredNamespacePrefix" href="video">video</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.lingvoj.org/ontology#">
+      <span property="ov:rank" content="100" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.lingvoj.org/ontology#" property="vann:preferredNamespacePrefix" href="lingvoj">lingvoj</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/commerce/product#">
+      <span property="ov:rank" content="101" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/commerce/product#" property="vann:preferredNamespacePrefix" href="product">product</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/commerce#">
+      <span property="ov:rank" content="102" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/commerce#" property="vann:preferredNamespacePrefix" href="commerce">commerce</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/NET/biol/botany#">
+      <span property="ov:rank" content="103" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/NET/biol/botany#" property="vann:preferredNamespacePrefix" href="botany">botany</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.daml.org/2001/10/html/airport-ont#">
+      <span property="ov:rank" content="104" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.daml.org/2001/10/html/airport-ont#" property="vann:preferredNamespacePrefix" href="airport">airport</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2007/content#">
+      <span property="ov:rank" content="105" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2007/content#" property="vann:preferredNamespacePrefix" href="cnt">cnt</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2009/pointers#">
+      <span property="ov:rank" content="106" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2009/pointers#" property="vann:preferredNamespacePrefix" href="ptr">ptr</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/linguistics/gold/">
+      <span property="ov:rank" content="107" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/linguistics/gold/" property="vann:preferredNamespacePrefix" href="gold">gold</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/ontology/po/">
+      <span property="ov:rank" content="108" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/ontology/po/" property="vann:preferredNamespacePrefix" href="po">po</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://buzzword.org.uk/rdf/xhtml-elements#">
+      <span property="ov:rank" content="109" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://buzzword.org.uk/rdf/xhtml-elements#" property="vann:preferredNamespacePrefix" href="xhe">xhe</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2003/g/data-view#">
+      <span property="ov:rank" content="110" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2003/g/data-view#" property="vann:preferredNamespacePrefix" href="grddl">grddl</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.geonames.org/ontology#">
+      <span property="ov:rank" content="111" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.geonames.org/ontology#" property="vann:preferredNamespacePrefix" href="geonames">geonames</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/NET/c4dm/timeline.owl#">
+      <span property="ov:rank" content="112" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/NET/c4dm/timeline.owl#" property="vann:preferredNamespacePrefix" href="tl">tl</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/vocab/changeset/schema#">
+      <span property="ov:rank" content="113" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/vocab/changeset/schema#" property="vann:preferredNamespacePrefix" href="cs">cs</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/dc/dcam/">
+      <span property="ov:rank" content="114" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/dc/dcam/" property="vann:preferredNamespacePrefix" href="dcam">dcam</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/NET/book/vocab#">
+      <span property="ov:rank" content="115" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/NET/book/vocab#" property="vann:preferredNamespacePrefix" href="book">book</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://xmlns.com/wot/0.1/">
+      <span property="ov:rank" content="116" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://xmlns.com/wot/0.1/" property="vann:preferredNamespacePrefix" href="wot">wot</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2008/turtle#">
+      <span property="ov:rank" content="117" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2008/turtle#" property="vann:preferredNamespacePrefix" href="ttl">ttl</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/net/biblio#">
+      <span property="ov:rank" content="118" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/net/biblio#" property="vann:preferredNamespacePrefix" href="biblio">biblio</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.holygoat.co.uk/owl/redwood/0.1/tags/">
+      <span property="ov:rank" content="119" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" property="vann:preferredNamespacePrefix" href="tag">tag</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2003/06/sw-vocab-status/ns#">
+      <span property="ov:rank" content="120" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2003/06/sw-vocab-status/ns#" property="vann:preferredNamespacePrefix" href="status">status</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/ontology/mo/mit#">
+      <span property="ov:rank" content="121" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/ontology/mo/mit#" property="vann:preferredNamespacePrefix" href="mit">mit</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2003/06/sw-vocab-status/ns#">
+      <span property="ov:rank" content="122" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2003/06/sw-vocab-status/ns#" property="vann:preferredNamespacePrefix" href="vs">vs</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://scot-project.org/scot/ns#">
+      <span property="ov:rank" content="123" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://scot-project.org/scot/ns#" property="vann:preferredNamespacePrefix" href="scot">scot</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2000/10/swap/pim/doc#">
+      <span property="ov:rank" content="124" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2000/10/swap/pim/doc#" property="vann:preferredNamespacePrefix" href="doc">doc</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.holygoat.co.uk/owl/redwood/0.1/tags/">
+      <span property="ov:rank" content="125" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" property="vann:preferredNamespacePrefix" href="tags">tags</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/rss/1.0/modules/taxonomy/">
+      <span property="ov:rank" content="126" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/rss/1.0/modules/taxonomy/" property="vann:preferredNamespacePrefix" href="taxo">taxo</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2001/04/roadmap/org#">
+      <span property="ov:rank" content="127" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2001/04/roadmap/org#" property="vann:preferredNamespacePrefix" href="org">org</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.kanzaki.com/ns/music#">
+      <span property="ov:rank" content="128" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.kanzaki.com/ns/music#" property="vann:preferredNamespacePrefix" href="m">m</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2000/10/swap/pim/contact#">
+      <span property="ov:rank" content="129" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2000/10/swap/pim/contact#" property="vann:preferredNamespacePrefix" href="con">con</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="test" class="missing">
+      <span property="ov:rank" content="130" datatype="xsd:int" />
+      <a href="test">test</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/NET/decimalised#">
+      <span property="ov:rank" content="131" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/NET/decimalised#" property="vann:preferredNamespacePrefix" href="ddc">ddc</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2006/time#">
+      <span property="ov:rank" content="132" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2006/time#" property="vann:preferredNamespacePrefix" href="time">time</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="testx" class="missing">
+      <span property="ov:rank" content="133" datatype="xsd:int" />
+      <a href="testx">testx</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="test4" class="missing">
+      <span property="ov:rank" content="134" datatype="xsd:int" />
+      <a href="test4">test4</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://moat-project.org/ns#">
+      <span property="ov:rank" content="135" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://moat-project.org/ns#" property="vann:preferredNamespacePrefix" href="moat">moat</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="foafx" class="missing">
+      <span property="ov:rank" content="136" datatype="xsd:int" />
+      <a href="foafx">foafx</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="xxxx" class="missing">
+      <span property="ov:rank" content="137" datatype="xsd:int" />
+      <a href="xxxx">xxxx</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="all" class="missing">
+      <span property="ov:rank" content="138" datatype="xsd:int" />
+      <a href="all">all</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="dcc" class="missing">
+      <span property="ov:rank" content="139" datatype="xsd:int" />
+      <a href="dcc">dcc</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="xx" class="missing">
+      <span property="ov:rank" content="140" datatype="xsd:int" />
+      <a href="xx">xx</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="usgovt" class="missing">
+      <span property="ov:rank" content="141" datatype="xsd:int" />
+      <a href="usgovt">usgovt</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="test5" class="missing">
+      <span property="ov:rank" content="142" datatype="xsd:int" />
+      <a href="test5">test5</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="ruleml" class="missing">
+      <span property="ov:rank" content="143" datatype="xsd:int" />
+      <a href="ruleml">ruleml</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="html" class="missing">
+      <span property="ov:rank" content="144" datatype="xsd:int" />
+      <a href="html">html</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="revrevrevr" class="missing">
+      <span property="ov:rank" content="145" datatype="xsd:int" />
+      <a href="revrevrevr">revrevrevr</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="reverse" class="missing">
+      <span property="ov:rank" content="146" datatype="xsd:int" />
+      <a href="reverse">reverse</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/dc/dcmitype/">
+      <span property="ov:rank" content="147" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/dc/dcmitype/" property="vann:preferredNamespacePrefix" href="dcmitype">dcmitype</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="osgb" class="missing">
+      <span property="ov:rank" content="148" datatype="xsd:int" />
+      <a href="osgb">osgb</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="veg" class="missing">
+      <span property="ov:rank" content="149" datatype="xsd:int" />
+      <a href="veg">veg</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="bib" class="missing">
+      <span property="ov:rank" content="150" datatype="xsd:int" />
+      <a href="bib">bib</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="world" class="missing">
+      <span property="ov:rank" content="151" datatype="xsd:int" />
+      <a href="world">world</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://vocab.sindice.com/xfn#">
+      <span property="ov:rank" content="152" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://vocab.sindice.com/xfn#" property="vann:preferredNamespacePrefix" href="xfn">xfn</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="okkam" class="missing">
+      <span property="ov:rank" content="153" datatype="xsd:int" />
+      <a href="okkam">okkam</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="svg" class="missing">
+      <span property="ov:rank" content="154" datatype="xsd:int" />
+      <a href="svg">svg</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/ontology/last-fm/">
+      <span property="ov:rank" content="155" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/ontology/last-fm/" property="vann:preferredNamespacePrefix" href="lfm">lfm</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="did" class="missing">
+      <span property="ov:rank" content="156" datatype="xsd:int" />
+      <a href="did">did</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="dii" class="missing">
+      <span property="ov:rank" content="157" datatype="xsd:int" />
+      <a href="dii">dii</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://spinrdf.org/sp#">
+      <span property="ov:rank" content="158" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://spinrdf.org/sp#" property="vann:preferredNamespacePrefix" href="sp">sp</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="admingeo" class="missing">
+      <span property="ov:rank" content="159" datatype="xsd:int" />
+      <a href="admingeo">admingeo</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://spinrdf.org/spin#">
+      <span property="ov:rank" content="160" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://spinrdf.org/spin#" property="vann:preferredNamespacePrefix" href="spin">spin</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/ibis#">
+      <span property="ov:rank" content="161" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/ibis#" property="vann:preferredNamespacePrefix" href="ibis">ibis</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/stuff/project/">
+      <span property="ov:rank" content="162" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/stuff/project/" property="vann:preferredNamespacePrefix" href="prj">prj</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/vocab/resourcelist/schema#">
+      <span property="ov:rank" content="163" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/vocab/resourcelist/schema#" property="vann:preferredNamespacePrefix" href="resource">resource</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2005/07/aaa#">
+      <span property="ov:rank" content="164" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2005/07/aaa#" property="vann:preferredNamespacePrefix" href="states">states</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/vocab/lifecycle/schema#">
+      <span property="ov:rank" content="165" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/vocab/lifecycle/schema#" property="vann:preferredNamespacePrefix" href="lifecycle">lifecycle</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2005/01/wai-rdf/GUIRoleTaxonomy#">
+      <span property="ov:rank" content="166" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2005/01/wai-rdf/GUIRoleTaxonomy#" property="vann:preferredNamespacePrefix" href="wairole">wairole</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://spinrdf.org/spl#">
+      <span property="ov:rank" content="167" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://spinrdf.org/spl#" property="vann:preferredNamespacePrefix" href="spl">spl</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="xh" class="missing">
+      <span property="ov:rank" content="168" datatype="xsd:int" />
+      <a href="xh">xh</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="csv" class="missing">
+      <span property="ov:rank" content="169" datatype="xsd:int" />
+      <a href="csv">csv</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="lastfm" class="missing">
+      <span property="ov:rank" content="170" datatype="xsd:int" />
+      <a href="lastfm">lastfm</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="nana" class="missing">
+      <span property="ov:rank" content="171" datatype="xsd:int" />
+      <a href="nana">nana</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://dbpedia.org/property/">
+      <span property="ov:rank" content="172" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://dbpedia.org/property/" property="vann:preferredNamespacePrefix" href="dbpprop">dbpprop</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2000/10/swap/crypto#">
+      <span property="ov:rank" content="173" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2000/10/swap/crypto#" property="vann:preferredNamespacePrefix" href="crypto">crypto</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="cv" class="missing">
+      <span property="ov:rank" content="174" datatype="xsd:int" />
+      <a href="cv">cv</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="xslt" class="missing">
+      <span property="ov:rank" content="175" datatype="xsd:int" />
+      <a href="xslt">xslt</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="xsl" class="missing">
+      <span property="ov:rank" content="176" datatype="xsd:int" />
+      <a href="xsl">xsl</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="xhtmlvocab" class="missing">
+      <span property="ov:rank" content="177" datatype="xsd:int" />
+      <a href="xhtmlvocab">xhtmlvocab</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="changeset" class="missing">
+      <span property="ov:rank" content="178" datatype="xsd:int" />
+      <a href="changeset">changeset</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="terms" class="missing">
+      <span property="ov:rank" content="179" datatype="xsd:int" />
+      <a href="terms">terms</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="dc11" class="missing">
+      <span property="ov:rank" content="180" datatype="xsd:int" />
+      <a href="dc11">dc11</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="timeline" class="missing">
+      <span property="ov:rank" content="181" datatype="xsd:int" />
+      <a href="timeline">timeline</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="mb" class="missing">
+      <span property="ov:rank" content="182" datatype="xsd:int" />
+      <a href="mb">mb</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="term" class="missing">
+      <span property="ov:rank" content="183" datatype="xsd:int" />
+      <a href="term">term</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="t" class="missing">
+      <span property="ov:rank" content="184" datatype="xsd:int" />
+      <a href="t">t</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="near" class="missing">
+      <span property="ov:rank" content="185" datatype="xsd:int" />
+      <a href="near">near</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2000/10/swap/os#">
+      <span property="ov:rank" content="186" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2000/10/swap/os#" property="vann:preferredNamespacePrefix" href="os">os</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2000/10/swap/list#">
+      <span property="ov:rank" content="187" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2000/10/swap/list#" property="vann:preferredNamespacePrefix" href="list">list</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="skot" class="missing">
+      <span property="ov:rank" content="188" datatype="xsd:int" />
+      <a href="skot">skot</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2000/10/swap/string#">
+      <span property="ov:rank" content="189" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2000/10/swap/string#" property="vann:preferredNamespacePrefix" href="string">string</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://xmlns.com/wordnet/1.6/">
+      <span property="ov:rank" content="190" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://xmlns.com/wordnet/1.6/" property="vann:preferredNamespacePrefix" href="wn">wn</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="rat" class="missing">
+      <span property="ov:rank" content="191" datatype="xsd:int" />
+      <a href="rat">rat</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://eulersharp.sourceforge.net/2003/03swap/log-rules#">
+      <span property="ov:rank" content="192" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://eulersharp.sourceforge.net/2003/03swap/log-rules#" property="vann:preferredNamespacePrefix" href="e">e</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="cyc" class="missing">
+      <span property="ov:rank" content="193" datatype="xsd:int" />
+      <a href="cyc">cyc</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="go" class="missing">
+      <span property="ov:rank" content="194" datatype="xsd:int" />
+      <a href="go">go</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.w3.org/2006/gen/ont#">
+      <span property="ov:rank" content="195" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.w3.org/2006/gen/ont#" property="vann:preferredNamespacePrefix" href="gen">gen</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://climb.dataincubator.org/vocabs/climb/">
+      <span property="ov:rank" content="196" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://climb.dataincubator.org/vocabs/climb/" property="vann:preferredNamespacePrefix" href="climb">climb</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="nao" class="missing">
+      <span property="ov:rank" content="197" datatype="xsd:int" />
+      <a href="nao">nao</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="nrl" class="missing">
+      <span property="ov:rank" content="198" datatype="xsd:int" />
+      <a href="nrl">nrl</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="admin" class="missing">
+      <span property="ov:rank" content="199" datatype="xsd:int" />
+      <a href="admin">admin</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://ontologi.es/giving#">
+      <span property="ov:rank" content="200" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://ontologi.es/giving#" property="vann:preferredNamespacePrefix" href="giving">giving</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="re" class="missing">
+      <span property="ov:rank" content="201" datatype="xsd:int" />
+      <a href="re">re</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="foa" class="missing">
+      <span property="ov:rank" content="202" datatype="xsd:int" />
+      <a href="foa">foa</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="f" class="missing">
+      <span property="ov:rank" content="203" datatype="xsd:int" />
+      <a href="f">f</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="cert" class="missing">
+      <span property="ov:rank" content="204" datatype="xsd:int" />
+      <a href="cert">cert</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="air" class="missing">
+      <span property="ov:rank" content="205" datatype="xsd:int" />
+      <a href="air">air</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="rfds" class="missing">
+      <span property="ov:rank" content="206" datatype="xsd:int" />
+      <a href="rfds">rfds</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="r" class="missing">
+      <span property="ov:rank" content="207" datatype="xsd:int" />
+      <a href="r">r</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="ter" class="missing">
+      <span property="ov:rank" content="208" datatype="xsd:int" />
+      <a href="ter">ter</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="d" class="missing">
+      <span property="ov:rank" content="209" datatype="xsd:int" />
+      <a href="d">d</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="revy" class="missing">
+      <span property="ov:rank" content="210" datatype="xsd:int" />
+      <a href="revy">revy</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="revyu" class="missing">
+      <span property="ov:rank" content="211" datatype="xsd:int" />
+      <a href="revyu">revyu</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="fo" class="missing">
+      <span property="ov:rank" content="212" datatype="xsd:int" />
+      <a href="fo">fo</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="isbn" class="missing">
+      <span property="ov:rank" content="213" datatype="xsd:int" />
+      <a href="isbn">isbn</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="ax" class="missing">
+      <span property="ov:rank" content="214" datatype="xsd:int" />
+      <a href="ax">ax</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="prism" class="missing">
+      <span property="ov:rank" content="215" datatype="xsd:int" />
+      <a href="prism">prism</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="kwijib" class="missing">
+      <span property="ov:rank" content="216" datatype="xsd:int" />
+      <a href="kwijib">kwijib</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="kwiji" class="missing">
+      <span property="ov:rank" content="217" datatype="xsd:int" />
+      <a href="kwiji">kwiji</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="kwi" class="missing">
+      <span property="ov:rank" content="218" datatype="xsd:int" />
+      <a href="kwi">kwi</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://ramonantonio.net/doac/0.1/#">
+      <span property="ov:rank" content="219" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://ramonantonio.net/doac/0.1/#" property="vann:preferredNamespacePrefix" href="doac">doac</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://sindice.com/hlisting/0.1/">
+      <span property="ov:rank" content="220" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://sindice.com/hlisting/0.1/" property="vann:preferredNamespacePrefix" href="hlisting">hlisting</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://www.openrdf.org/config/sail/custom#">
+      <span property="ov:rank" content="221" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://www.openrdf.org/config/sail/custom#" property="vann:preferredNamespacePrefix" href="custom">custom</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://dbpedia.org/property/">
+      <span property="ov:rank" content="222" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://dbpedia.org/property/" property="vann:preferredNamespacePrefix" href="dbp">dbp</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="voi" class="missing">
+      <span property="ov:rank" content="223" datatype="xsd:int" />
+      <a href="voi">voi</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="red" class="missing">
+      <span property="ov:rank" content="224" datatype="xsd:int" />
+      <a href="red">red</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="redf" class="missing">
+      <span property="ov:rank" content="225" datatype="xsd:int" />
+      <a href="redf">redf</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://dbpedia.org/resource/">
+      <span property="ov:rank" content="226" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://dbpedia.org/resource/" property="vann:preferredNamespacePrefix" href="dbr">dbr</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/ontology/last-fm/">
+      <span property="ov:rank" content="227" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/ontology/last-fm/" property="vann:preferredNamespacePrefix" href="gob">gob</a>
+    </li>
+    <li typeof="owl:Ontology" property="vann:preferredNamespaceUri" content="http://purl.org/ontology/musim#">
+      <span property="ov:rank" content="228" datatype="xsd:int" />
+      <a rel="rdfs:seeAlso" resource="http://purl.org/ontology/musim#" property="vann:preferredNamespacePrefix" href="musim">musim</a>
+    </li>
+  </ol>
+  <div class="footer">
+    <a href="popular">top 10</a>
+ |     <a href="popular/all.n3">n3</a>
+    <a href="popular/all.xml">xml</a>
+    <a href="popular/all.rdfa">rdfa</a>
+    <a href="popular/all.ttl">ttl</a>
+    <a href="popular/all.sparql">sparql</a>
+    <a href="popular/all.txt">txt</a>
+    <a href="popular/all.csv">csv</a>
+    <a href="popular/all.json">json</a>
+    <a href="popular/all.ini">ini</a>
+    |
+    <a rel="home" href="http://prefix.cc/">prefix.cc</a>
+  </div>
+</body>
+</html>
